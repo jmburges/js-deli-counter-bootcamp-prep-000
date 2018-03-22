@@ -10,7 +10,7 @@ function nowServing(katzDeliLine) {
   }
   
   let customer = katzDeliLine.shift()
-  return `Currently serving ${customer}.`
+  return "Currently serving ${customer}."
 }
 
 function currentLine(katzDeliLine) {
